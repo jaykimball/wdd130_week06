@@ -1,1 +1,93 @@
-<!DOCTYPE html><html><head><title>Contact</title></head><body><h1>Contact Us</h1></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Contact Wild Rapids for all rafting inquiries, bookings, and feedback." />
+  <meta name="author" content="John Momoh" />
+  <title>Wild Rapids | Contact Us</title>
+  <link rel="stylesheet" href="styles/rafting.css" />
+</head>
+<body>
+  <header>
+    <img src="images/logo.png" alt="Wild Rapids Logo" />
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="trips.html">Trips</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Contact Us</h1>
+    
+    <section>
+      <h2>Our Office</h2>
+      <p>123 Rapids Way, Surulere, Lagos, Nigeria</p>
+      <p>Phone: +234 801 234 5678</p>
+      <p>Email: contact@wildrapids.com</p>
+    </section>
+
+    <section>
+      <h2>Location</h2>
+      <iframe src="https://www.google.com/maps/embed?pb=..." width="300" height="200" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section>
+      <h2>Meet Our Team</h2>
+      <figure>
+        <img src="images/employee1.jpg" alt="John - Guide" />
+        <figcaption>John – Lead Guide</figcaption>
+      </figure>
+      <figure>
+        <img src="images/employee2.jpg" alt="Jane - Coordinator" />
+        <figcaption>Jane – Tour Coordinator</figcaption>
+      </figure>
+      <figure>
+        <img src="images/employee3.jpg" alt="Mark - Support" />
+        <figcaption>Mark – Customer Support</figcaption>
+      </figure>
+    </section>
+
+    <section>
+      <h2>Send Us a Message</h2>
+      <form>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required />
+
+        <p>Purpose of Message:</p>
+        <input type="radio" id="general" name="purpose" value="General Inquiry" checked />
+        <label for="general">General Inquiry</label><br />
+        <input type="radio" id="reservation" name="purpose" value="Reservation Question" />
+        <label for="reservation">Reservation Question</label><br />
+        <input type="radio" id="website" name="purpose" value="Website Suggestion" />
+        <label for="website">Website Suggestion</label>
+
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <input type="checkbox" id="subscribe" name="subscribe" />
+        <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Wild Rapids | John Momoh</p>
+    <nav class="socialmedia">
+      <a href="#"><img src="images/facebook.png" alt="Facebook" /></a>
+      <a href="#"><img src="images/twitter.png" alt="Twitter" /></a>
+      <a href="#"><img src="images/instagram.png" alt="Instagram" /></a>
+    </nav>
+    <p><a href="link-to-wireframe.png">View Wireframe</a></p>
+  </footer>
+</body>
+</html>
